@@ -1,0 +1,123 @@
+/* General section styles */
+section {
+  padding: 80px 0;
+  color: #fff;
+  background-color: #0d1117;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #c9d1d9;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+/* Card Grid (Services Section) */
+.card-grid {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  padding: 30px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #58a6ff;
+  box-shadow: 0 8px 25px rgba(56, 139, 253, 0.2);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Features Section */
+.features-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.feature-card {
+  background: linear-gradient(135deg, #161b22, #1c2128);
+  border: 1px solid #30363d;
+  border-radius: 15px;
+  padding: 30px;
+  width: 320px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(88, 166, 255, 0.2);
+}
+
+.feature-icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+/* Why Choose Us */
+.split-layout {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: left;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.image-side {
+  flex: 1;
+}
+
+.image-side img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(56, 139, 253, 0.15);
+}
+
+.benefits-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.benefits-list li {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+  color: #8b949e;
+}
+
+blockquote {
+  font-style: italic;
+  color: #a5d6ff;
+  margin: 20px 0;
+  border-left: 4px solid #58a6ff;
+  padding-left: 15px;
+}
