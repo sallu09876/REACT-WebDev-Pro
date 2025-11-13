@@ -27,7 +27,7 @@ function Home() {
               </button>
 
               <Link to="/contact" className="glass-btn secondary">
-                Get Free Quote
+                Get in Touch
               </Link>
             </div>
           </div>
