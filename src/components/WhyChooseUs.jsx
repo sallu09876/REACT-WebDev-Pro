@@ -19,9 +19,9 @@ const WhyChooseUs = () => {
             <li>✅ UX-Focused, ROI-Driven Design</li>
           </ul>
         </div>
-        <div className="image-side">
+        {/* <div className="image-side">
           <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/web-2691919_1280.jpg" alt="Why Choose Us" />
-        </div>
+        </div> */}
       </div>
     </section>
   );
