@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import hero from '../assets/hero.jpg';
 
 function Home() {
   return (
@@ -32,7 +33,7 @@ function Home() {
           </div>
 
           <div className="hero-image">
-            <img src="/media/hero.jpg" alt="Web Development Services" />
+            <img src={hero} alt="Web Development Services" />
           </div>
         </div>
       </section>

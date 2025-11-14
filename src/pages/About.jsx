@@ -1,6 +1,6 @@
 import React from 'react';
 import "../components/WhyChooseUs.jsx";
-
+import Service from '../assets/service.jpg';
 
 function About() {
   return (
@@ -29,7 +29,7 @@ function About() {
             <div className="about-image">
               <div className="placeholder-image">
                 <span>
-                  <img src="media/service.jpg" alt="Services" style={{ width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '10px' }} />
+                  <img src={Service} alt="Services" style={{ width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '10px' }} />
                 </span>
               </div>
             </div>
